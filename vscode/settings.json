@@ -1,0 +1,39 @@
+{
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font', Consolas, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": true,
+  "editor.linkedEditing": true,
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Hub Contrast (rainglow)",
+  "workbench.iconTheme": "material-icon-theme",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.enablePersistentSessions": false,
+  "dev.containers.mountWaylandSocket": false,
+  "markdown-preview-enhanced.codeBlockTheme": "atom-dark.css",
+  "markdown-preview-enhanced.previewTheme": "atom-dark.css",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
+  },
+  "SQL-Formatter-VSCode.dialect": "transactsql",
+  "SQL-Formatter-VSCode.functionCase": "upper",
+  "SQL-Formatter-VSCode.dataTypeCase": "upper",
+  "SQL-Formatter-VSCode.keywordCase": "upper",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdown.extension.toc.levels": "2..6",
+  "telemetry.telemetryLevel": "off",
+  "telemetry.feedback.enabled": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

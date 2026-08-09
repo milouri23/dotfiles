@@ -1,7 +1,7 @@
 # 💻 milouri23's Dotfiles
 
-Bienvenido a mi repositorio de configuraciones personales. Aquí mantengo sincronizado mi entorno de trabajo para poder replicarlo fácilmente en cualquier máquina nueva sin empezar desde cero.
+Welcome to my personal configurations repository. Here I keep my work environment synchronized so I can easily replicate it on any new machine without starting from scratch.
 
-## 📦 ¿Qué incluye?
+## 📦 What does it include?
 
-Este repositorio respalda las configuraciones de mis herramientas principales
+This repository backs up the configurations of my main tools
