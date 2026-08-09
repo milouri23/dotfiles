@@ -1,0 +1,11 @@
+daylerees.rainglow
+PKief.material-icon-theme
+usernamehw.errorlens
+ms-vscode-remote.vscode-remote-extensionpack
+ms-azuretools.vscode-docker
+esbenp.prettier-vscode
+ReneSaarsoo.sql-formatter-vsc
+shd101wyy.markdown-preview-enhanced
+yzhang.markdown-all-in-one
+DavidAnson.vscode-markdownlint
+ms-vscode.PowerShell

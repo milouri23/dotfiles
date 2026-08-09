@@ -17,23 +17,23 @@
   "dev.containers.mountWaylandSocket": false,
   "markdown-preview-enhanced.codeBlockTheme": "atom-dark.css",
   "markdown-preview-enhanced.previewTheme": "atom-dark.css",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[sql]": {
-    "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
-  },
   "SQL-Formatter-VSCode.dialect": "transactsql",
   "SQL-Formatter-VSCode.functionCase": "upper",
   "SQL-Formatter-VSCode.dataTypeCase": "upper",
   "SQL-Formatter-VSCode.keywordCase": "upper",
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "markdown.extension.toc.levels": "2..6",
   "telemetry.telemetryLevel": "off",
   "telemetry.feedback.enabled": false,
   "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

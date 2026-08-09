@@ -37,3 +37,27 @@ foreach ($ext in $myExtensions) {
 }
 
 Write-Host "Done!" -ForegroundColor Cyan
+
+Write-Host "Configuring settings.json..." -ForegroundColor Cyan
+
+# Paths
+$dotfilesSettings = Join-Path -Path $scriptPath -ChildPath "settings.json"
+$vsCodeSettingsDir = "$env:APPDATA\Code\User"
+$vsCodeSettingsFile = "$env:APPDATA\Code\User\settings.json"
+
+# Ensure the destination folder exists
+if (-not (Test-Path -Path $vsCodeSettingsDir)) {
+    New-Item -ItemType Directory -Path $vsCodeSettingsDir -Force | Out-Null
+}
+
+# If a previous file already exists, we back it up for safety
+if (Test-Path -Path $vsCodeSettingsFile) {
+    Write-Host "Backing up existing settings.json..." -ForegroundColor Yellow
+    Rename-Item -Path $vsCodeSettingsFile -NewName "settings.json.backup" -Force
+}
+
+# Copy the file instead of creating a symlink
+Write-Host "Copying settings.json to VS Code..."
+Copy-Item -Path $dotfilesSettings -Destination $vsCodeSettingsFile -Force
+
+Write-Host "VS Code setup completed successfully!" -ForegroundColor Green
